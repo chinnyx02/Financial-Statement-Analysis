@@ -70,4 +70,3 @@ financial_statement
 
 ---
 
-RE variance < 0;
