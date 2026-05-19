@@ -68,6 +68,7 @@ SELECT
 FROM financial_statement
 GROUP BY month;
 
+
 -- Revenue Analysis
 SELECT *
 FROM financial_statement
