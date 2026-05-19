@@ -81,3 +81,16 @@ SELECT
     SUM(variance) AS total_variance
 FROM financial_statement
 GROUP BY month;
+
+## Departmental Performance Analysis
+
+    SELECT *
+FROM financial_statement
+WHERE variance < 0;
+
+
+## Negative Variance Detection
+
+SELECT *
+FROM financial_statement
+WHERE variance < 0;
