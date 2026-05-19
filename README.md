@@ -70,27 +70,4 @@ financial_statement
 
 ---
 
-# Sample Analysis Queries
-
-## Monthly Financial Summary
-```sql
-SELECT
-    month,
-    SUM(actual) AS total_actual,
-    SUM(budget) AS total_budget,
-    SUM(variance) AS total_variance
-FROM financial_statement
-GROUP BY month;
-
-## Departmental Performance Analysis
-
-    SELECT *
-FROM financial_statement
-WHERE variance < 0;
-
-
-## Negative Variance Detection
-
-SELECT *
-FROM financial_statement
-WHERE variance < 0;
+RE variance < 0;
